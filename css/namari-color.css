@@ -29,6 +29,14 @@ a:hover, #header.nav-solid nav a:hover {
     color:#d2b356;
 }
 
+.brand-link {
+    color:#1d5fc6;
+}
+
+.brand-link:hover {
+    color:#2f7cf1;
+}
+
 /* Default Icon Color */
 
 .icon i {
@@ -124,7 +132,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image.png") no-repeat center top;
     background-size:cover;
 }
 

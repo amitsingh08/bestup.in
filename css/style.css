@@ -341,6 +341,34 @@ section {
     display: inline-block;
 }
 
+.brand-wordmark {
+    align-items: center;
+    display: inline-flex;
+    height: 71px;
+    line-height: 1;
+    margin-right: 15px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.brand-best,
+.brand-up {
+    display: inline-block;
+    font-family: 'Space Grotesk', 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.brand-best {
+    color: #1d5fc6;
+}
+
+.brand-up {
+    color: #1d5fc6;
+    margin-left: 1px;
+}
+
 #banner #logo h1 {
     font-size: 28px;
     margin-right: 10px;
@@ -369,6 +397,10 @@ section {
 
 .nav-solid #logo #navigation-logo {
     display: inline-block;
+}
+
+.brand-wordmark-static {
+    margin: 0 auto 20px auto;
 }
 
 /* --------- 2.3 Buttons ---------- */
